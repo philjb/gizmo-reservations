@@ -8,4 +8,4 @@ This page is displayed in the Laser Cutter room so all members and users can see
 
 I host it on google app engine.
 
-![Reservations](www.github.com/philjb/gizmo-reservations/blobl/master/assets/static/images/preview.png "Reservation Snapshot")
+![Reservations](https://raw.githubusercontent.com/philjb/gizmo-reservations/master/assets/static/images/preview.png "Reservation Snapshot")
