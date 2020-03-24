@@ -1,0 +1,8 @@
+  <%= if @reservations != [] do %>
+  <%= for %{"full_name" => name, "start" => start, "finish"=> stop} <- @reservations do %>
+    <p><%= name %><br/>
+    <%= parse_date(start) %> to <%= parse_date(stop) %></p>
+  <% end %>
+  <% else %>
+  <p><i>No Reservations</i></p>
+  <% end %>

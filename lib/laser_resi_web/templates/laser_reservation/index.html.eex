@@ -1,0 +1,50 @@
+<section class="center">
+<h1>Laser Cutter Room</h1>
+<h1>Reservations</h1>
+
+
+<section class="row">
+<article class="column">
+<h3>Laser 1 Boss HP 3650</h3>
+</article>
+<article class="column">
+<h3>Laser 2 Boss HP 3655</h3>
+</article>
+</section>
+
+<div>
+<h2>Today: <%= today() %></h2>
+<div id="clock">
+<%= time_now_html() %>
+</div>
+
+</div>
+<section class="row">
+<article class="column">
+
+<div id="today">
+<%= today_reservations_html() %>
+</div>
+
+</article>
+<article class="column">
+
+</article>
+</section>
+
+<h3>Tomorrow: <%= tomorrow() %></h3>
+
+<section class="row">
+<article class="column">
+
+<div id="tomorrow">
+<%= tomorrow_reservations_html() %>
+</div>
+
+</article>
+<article class="column">
+
+</article>
+</section>
+
+</section>
